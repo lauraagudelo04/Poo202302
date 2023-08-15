@@ -7,7 +7,7 @@ public class CuentaBancaria {
     public Banco banco;
     public Persona propietario;
 
-//sobrecarga de constructores
+// sobrecarga de constructores
     public CuentaBancaria(int numero){
         this.numero=numero;
         this.activa=true;
