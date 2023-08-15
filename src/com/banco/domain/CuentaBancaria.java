@@ -11,7 +11,6 @@ public class CuentaBancaria {
     public CuentaBancaria(int numero){
         this.numero=numero;
         this.activa=true;
-
     }
     public CuentaBancaria(int numero, long saldo, Persona propietario) {
         this(numero);
